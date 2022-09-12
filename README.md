@@ -65,19 +65,23 @@ scipy
 ipykernel
 
 ## Code Architecture
-Continuous_Control.ipynb: jupyter notebook based solution
+Tennis.ipynb: jupyter notebook based solution
 
 ddpg_agent.py: DDPG agent code
 
 model.py: Actor/Critic model
 
-actor.pth: weights of the actor model
+actor0.pth: weights of the agent0 actor model
 
-critic.pth: weights of the critic model
+critic0.pth: weights of the agent0 critic model
+
+actor1.pth: weights of the agent1 actor model
+
+critic1.pth: weights of the agent1 critic model
 
 ## Instructions
-In this project, we could run Continuous_Control.ipynb within the env, train the model and get the results.
+In this project, we could run Tennis.ipynb within the env, train the model and get the results.
 
 ## Result
 
-![image](https://user-images.githubusercontent.com/109795677/189513221-b928f03f-2354-427e-b278-85a32fd94e50.png)
+![image](https://user-images.githubusercontent.com/109795677/189673822-4e2d2c89-da4e-4706-97b8-ee7f276aea85.png)
